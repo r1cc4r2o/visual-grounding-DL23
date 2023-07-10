@@ -1,7 +1,7 @@
 # Visual-Grounding-DL23 
 Visual Grounding pipeline for the Deep Learning project. University of Trento, 2023
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andreacoppari/visual-grounding-DL23/blob/main/Visual_Grounding_DL23.ipynb)     
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1WgQcmtqpKZwsSXBKMNhr2V72aL6N4jua/view?usp=share_link)     
 
 Here you can check out the plug and play solution of the notebook. This notebook contains step-by-step illustation and explanation of the proposed architecture. You can run the code cells without any modifications and see the results.
 ## Task
