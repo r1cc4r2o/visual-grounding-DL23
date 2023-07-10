@@ -1,6 +1,9 @@
-# Grounding-GINA-DL23
+# Visual-Grounding-DL23 
 Visual Grounding pipeline for the Deep Learning project. University of Trento, 2023
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andreacoppari/visual-grounding-DL23/blob/main/Visual_Grounding_DL23.ipynb)     
+
+Here you can check out the plug and play solution of the notebook. This notebook contains step-by-step illustation and explanation of the proposed architecture. You can run the code cells without any modifications and see the results.
 ## Task
 
 Visual grounding is the process of associating linguistic information with visual content, such as images or video. It is an important task in natural language processing and computer vision, as it enables machines to understand and interpret the world in a more human-like way.
@@ -9,17 +12,45 @@ Visual grounding is the process of associating linguistic information with visua
 
 The task at hand is to develop a model capable of performing visual grounding, which involves associating linguistic descriptions with visual content such as images or video. Visual grounding is a crucial task in the fields of natural language processing and computer vision, as it allows machines to better understand and interpret the world around them. This project aims to explore visual grounding by building and training a deep learning model using a dataset of image-caption pairs from RefCOCOg.
 
-This project aims to explore visual grounding by developing a model that can accurately associate natural language descriptions with corresponding images. The model will be trained using a dataset of image-caption pairs, and evaluated on its ability to generate accurate and relevant captions for new images. 
+This project aims to explore visual grounding by developing a model that can accurately associate natural language descriptions with corresponding images. The model will be trained using a dataset of image-caption pairs, and evaluated on its ability to generate accurate and relevant captions for new images.
 
-Through this project, we hope to contribute to the advancement of visual grounding research and inspire further exploration of this exciting field. Our code and results will be shared publicly on this Git repository, so that others can reproduce our work and build upon it.
 
+Our code and results will be shared publicly on this Git repository, so that others can reproduce our work and build upon it.
+
+
+## Dataset
+
+Our data preparation process involves applying the RefCOCOg dataset to various versions of the yolo backbone detector. This allows us to obtain the bounding box coordinates for each image region of interest. Next, we feed the cropped image regions to the CLIP-ViT-32/B model, which encodes them into high-dimensional feature vectors. We provide an extended version of the dataset that contains multiple captions per image. We used all the image-caption pairs available, instead of selecting one single caption for each image. This increased the size of the training set from 43000 to 77000 samples. The resulting data is available for download from our gDrive folder.
+
+
+
+#### Download RefCOCOg dataset
+
+```bash
+gdown 1tkTUpbdkPqQ1JgHcVlsT0ikjcftF4P6x
+unzip refcocog.tar.zip
+rm refcocog.tar.zip
+tar -xvf refcocog.tar
+rm refcocog.tar
+```
+
+#### Run the evaluation script with the precomputed data
+
+```bash
+gdown 1Obq6-ApHB9dzxsmJ4Wj63aJE7rj0UDHl
+tar -xvf ./eval.tar eval.py
+python eval.py
+rm -rf eval.tar __MACOSX
+```
 
 ## Experiments
 
-ABCD EFG HI
 
 
-## References
+
+
+
+Here the most important model used as backbone of our experiments:
 
 ```bixtex
 @inproceedings{li2022blip,
@@ -63,9 +94,8 @@ ABCD EFG HI
 }
 ```
 
-## To cite us
+## To Cite:
 
-Please cite us if you use this work in your research:
 ```bibtex
 @misc{CoppariTedoldi2023,
     title   = {VisualGrounding:...},
