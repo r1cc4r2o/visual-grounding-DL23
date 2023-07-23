@@ -1,6 +1,8 @@
 # Visual-Grounding-DL23 
 > Visual Grounding pipelines for the Deep Learning project. University of Trento, 2023
+> 
 > Authors: [Andrea Coppari](https://it.linkedin.com/in/andreacoppari1005), [Riccardo Tedoldi](https://www.instagram.com/riccardotedoldi/)
+> 
 > Supervisors: [Alessandro Conti](https://webapps.unitn.it/du/it/Persona/PER0191439/Pubblicazioni), [Elisa Ricci](https://webapps.unitn.it/du/it/Persona/PER0126701/Pubblicazioni)
 > 
 > [[slide-pdf]](https://drive.google.com/file/d/1xB_I5_5zepOkj-Qi5OU6e-Ak_KnJ4LIM/view?usp=sharing)
