@@ -1,7 +1,11 @@
 # Visual-Grounding-DL23 
-Visual Grounding pipeline for the Deep Learning project. University of Trento, 2023
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1WgQcmtqpKZwsSXBKMNhr2V72aL6N4jua/view?usp=share_link)     
+> Visual Grounding pipelines for the Deep Learning project. University of Trento, 2023
+> Authors: [Andrea Coppari](https://it.linkedin.com/in/andreacoppari1005), [Riccardo Tedoldi](https://www.instagram.com/riccardotedoldi/)
+> Supervisors: [Alessandro Conti](https://webapps.unitn.it/du/it/Persona/PER0191439/Pubblicazioni), [Elisa Ricci](https://webapps.unitn.it/du/it/Persona/PER0126701/Pubblicazioni)
+> 
+> [[slide-pdf]](https://drive.google.com/file/d/1xB_I5_5zepOkj-Qi5OU6e-Ak_KnJ4LIM/view?usp=sharing)
+> 
+> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1WgQcmtqpKZwsSXBKMNhr2V72aL6N4jua/view?usp=share_link)
 
 Here you can check out the plug and play solution of the notebook. This notebook contains step-by-step illustation and explanation of the proposed architecture. You can run the code cells without any modifications and see the results.
 ## Task
